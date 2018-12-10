@@ -1,0 +1,298 @@
+section{
+    height: 100vh;
+    /* height: 400px; */
+    
+}
+.grid3{
+    height: 90vh;
+}
+
+.grid7{
+    height: 90vh
+}
+
+
+
+/* .navbar{
+   
+} */
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #181818;
+    color: #d1d1d1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+  
+}
+
+.ha{
+    position: fixed;
+    top: 100px;
+    z-index: 10;
+}
+
+.header{
+    width: 100%;
+    background-color:#181818;
+    border-bottom: 1px solid #181818;
+}
+
+
+.header-newsletter-button{
+    display: block;
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+    color: #222;
+    background-color: #d4ab03;
+    /* border-radius: 5px; */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    
+    font-size: .90rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.ml-auto{
+    margin-left: auto !important;
+}
+
+/* button i[class^="fas fa"], button i[class*=" fa-"], button i.fa{
+    text-align: end;
+    padding: 1px;
+    margin-left: 5px;
+} */
+
+
+
+
+.header-newsletter button:hover {
+    background-color: lightgray;
+}
+
+
+@media (max-width: 1024px){
+    .header-newsletter-button{ padding: 10px 40px 10px 15px;
+ }   
+}
+
+
+.logosilang::before{
+    margin-left: 5px;
+}
+
+.header-newsletter{
+    /* background: #d4ab03; */
+    
+    padding: 0;
+    cursor: pointer;
+
+        position: absolute;
+        top: 0;
+        right: 250px;
+        z-index: 11;
+        
+    box-sizing: inherit;
+
+}
+
+.header-top{
+    display: block;
+    text-align: right;
+    padding: .5rem .75rem;
+    height: 34px;
+    margin-bottom: -34px;
+    font-weight: 300;
+    position: relative;
+}
+
+.header-top{
+    display: block;
+    list-style: none;
+    font-size: .80rem;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:13px;
+    right: 35px;
+    z-index: 12;
+    
+}
+
+.header-top>ul>li{
+    display: inline;
+    padding: 1rem .5rem;
+}
+
+li{
+    text-align: -webkit-match-parent;
+}
+
+.header a{
+    display: inline-block;
+    color: #777;
+}
+.header a:hover {
+    color: lightgray;
+}
+
+
+@media (min-width: 768px){
+    .header-middle{ align-items: flex-end;
+         /* padding: .75rem .75rem .75rem; */
+ }   
+
+ 
+ }
+ .header-middle{
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    position: relative;
+    
+    
+    
+   
+    
+ }
+
+
+
+ /* .logoatas img{
+     display: block;
+     width: 150px;
+     height: 40px;
+     margin-left: -20px;
+     
+ } */
+
+ .logobawah img{
+     padding-bottom: 0px;
+     height: 35px;
+     width: 170px; 
+ }
+
+
+ .carousel-inner img {
+     
+    width: 100%;
+    /* height: 100%; */
+    
+    /* height: 80%; */
+    /* height: 50%; */
+}
+
+.carousel-inner{
+    width: 100%;
+    height: auto;
+}
+
+.gridcarosel{
+    padding: 0px;
+    height: auto;
+}
+
+.gambar{
+    height: 650px;
+}
+
+
+.drop{
+    width: 500px;
+    background-color: #181818;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+
+.diskon >img{
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+.kolomdiskon{
+    width: 100%;
+}
+
+.kolomfullprint{
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+/*  */
+
+.grid5{
+    margin-bottom: 0;
+}
+
+/* .grid5 h2{
+    
+
+} */
+
+hr{
+    width: 20%;
+    border-top: 2px solid white;
+    
+}
+
+.cardcatalog{
+    border: 0px;
+}
+
+.card-body{
+    background-color: #181818;
+}
+
+.logo{
+    color:#181818;
+  
+}
+
+.foot1row{
+    background-color: #333333;
+    padding-top: 25px;
+    height: 25vh;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+
+.isifoot1 > p{
+    margin-top: 12px;
+}
+
+
+.logo:hover{
+    
+    color: white;
+}
+
+/* .video{
+    width: 80%;
+    justify-content: center;
+    height: 500px;
+} */
+
+card > a{
+    color: #181818;
+}
+
+/* .katalognews{
+    border: #181818;
+} */
+
