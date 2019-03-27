@@ -12,7 +12,7 @@ class Homepage extends Component {
 
             <header class="header col-lg-12 col-xm-12 fixed-top" id="site-header">
               <div class="header-newsletter">
-                <button class="header-newsletter-button ml-auto" onclick="">Subscribe and Get diskon 10%
+                <button class="header-newsletter-button ml-auto" onclick="">Subscribe and Get diskon 70%
                         <i class="fas fa-times ml-auto logosilang"></i>
                 </button>
               </div>
