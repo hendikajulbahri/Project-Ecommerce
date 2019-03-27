@@ -88,10 +88,6 @@ body{
 }
 
 
-.logosilang::before{
-    margin-left: 5px;
-}
-
 .header-newsletter{
     /* background: #d4ab03; */
     
@@ -227,6 +223,11 @@ padding: 0;
     width: 100%;
 }
 
+.kolomdiskon:hover{
+    opacity: 0.9;
+    transform: translateX(2px)
+}
+
 .kolomfullprint{
     width: 100%;
     padding-bottom: 0px;
@@ -266,14 +267,18 @@ hr{
     background-color: #333333;
     padding-top: 25px;
     height: 25vh;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0px;
+    margin-right: 0px;
     
 }
 
 
 .isifoot1 > p{
     margin-top: 12px;
+}
+
+.isifoot1:hover{
+    transform: scale(1.1)
 }
 
 
@@ -295,4 +300,131 @@ card > a{
 /* .katalognews{
     border: #181818;
 } */
+
+
+
+
+/* -------------------------------------------------Menu Produk------------------------------------ */
+
+.containerlabel {
+    display: block;
+    position: relative;
+    padding-left: 65px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-right: 70px;
+  }
+
+
+.labelmenukategori{
+    padding-right: 80px;
+}
+
+.gariscontainerlabel{
+    border: 1px solid #d1d1d1;
+    width: 70%;
+}
+
+
+.labelmenukategorisize{
+    padding-right: 110px;
+}
+
+
+  
+  /* Hide the browser's default checkbox */
+  .containerlabel input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 40px;
+    height: 18px;
+    width: 18px;
+    background-color:#d1d1d1;
+  }
+  
+   
+  /* On mouse-over, add a grey background color */
+  .containerlabel:hover input ~ .checkmark {
+    background-color:#d4ab03;
+  }
+
+  
+  /* When the checkbox is checked, add a blue background */
+  .containerlabel input:checked ~ .checkmark {
+    background-color: #d1d1d1;
+  }
+  
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+   /* Show the checkmark when checked */
+   .containerlabel input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  
+  /* Style the checkmark/indicator */
+  .containerlabel .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #181818;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .menuproduk{
+      padding-top: 0px;
+  }
+
+  .katalogmenuproduk{
+      padding-top: 150px;
+  }
+
+ .pro img{
+     width: 80%;
+ }
+
+ .cardmenuproduk:hover{
+     opacity: 0.9;
+     transform: scale(1.1)
+     
+ }
+
+ .tagjenisproduk{
+     padding-bottom: 30px;
+ }
+
+.cardmenuproduk{
+    background-color: transparent;
+}
+
+.cardbodymenuproduk{
+    padding-left: 0px;
+    width: 80%;
+}
 
