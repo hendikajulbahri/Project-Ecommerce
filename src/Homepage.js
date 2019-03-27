@@ -12,7 +12,7 @@ class Homepage extends Component {
 
             <header class="header col-lg-12 col-xm-12 fixed-top" id="site-header">
               <div class="header-newsletter">
-                <button class="header-newsletter-button ml-auto" onclick="">Subscribe and Get diskon 10%
+                <button class="header-newsletter-button ml-auto" onclick="">Follow
                         <i class="fas fa-times ml-auto logosilang"></i>
                 </button>
               </div>
@@ -20,7 +20,7 @@ class Homepage extends Component {
               <div class="header-top col-lg-12 col-xm-12">
                 <ul>
                   <li>
-                    <a href="https://www.wellborncompany.com/" class="shopping-guide">Jualan</a>
+                    <a href="https://www.wellborncompany.com/" class="shopping-guide">Sell</a>
                   </li>
                   <li class="user-menu">
                     <a href="https://www.wellborncompany.com/">Masuk / login</a>
