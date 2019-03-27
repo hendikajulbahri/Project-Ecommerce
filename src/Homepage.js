@@ -20,7 +20,7 @@ class Homepage extends Component {
               <div class="header-top col-lg-12 col-xm-12">
                 <ul>
                   <li>
-                    <a href="https://www.wellborncompany.com/" class="shopping-guide">Jualan</a>
+                    <a href="https://www.wellborncompany.com/" class="shopping-guide">Sell</a>
                   </li>
                   <li class="user-menu">
                     <a href="https://www.wellborncompany.com/">Login Hendika</a>
