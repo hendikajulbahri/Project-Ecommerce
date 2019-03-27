@@ -51,7 +51,7 @@ class Homepage extends Component {
                           <li class="nav-item dropdown nav-item active">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                               aria-expanded="false">
-                              Men
+                              Pria
                                             </a>
                             <div class="dropdown-menu drop" aria-labelledby="navbarDropdown">
                               <div class="row">
