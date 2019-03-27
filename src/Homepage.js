@@ -23,7 +23,8 @@ class Homepage extends Component {
                     <a href="https://www.wellborncompany.com/" class="shopping-guide">Sell</a>
                   </li>
                   <li class="user-menu">
-                    <a href="https://www.wellborncompany.com/">Login Hendika</a>
+                    <a href="https://www.wellborncompany.com/">Masuk / login</a>
+
                   </li>
 
                 </ul>
