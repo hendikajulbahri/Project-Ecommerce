@@ -12,7 +12,8 @@ class Homepage extends Component {
 
             <header class="header col-lg-12 col-xm-12 fixed-top" id="site-header">
               <div class="header-newsletter">
-                <button class="header-newsletter-button ml-auto" onclick="">Subscribe and Get diskon 70%
+
+                <button class="header-newsletter-button ml-auto" onclick="">Follow
                         <i class="fas fa-times ml-auto logosilang"></i>
                 </button>
               </div>
@@ -20,7 +21,7 @@ class Homepage extends Component {
               <div class="header-top col-lg-12 col-xm-12">
                 <ul>
                   <li>
-                    <a href="https://www.wellborncompany.com/" class="shopping-guide">Jualan</a>
+                    <a href="https://www.wellborncompany.com/" class="shopping-guide">Sell</a>
                   </li>
                   <li class="user-menu">
 
@@ -53,12 +54,12 @@ class Homepage extends Component {
                           <li class="nav-item dropdown nav-item active">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                               aria-expanded="false">
-                              Men
+                              Pria
                                             </a>
                             <div class="dropdown-menu drop" aria-labelledby="navbarDropdown">
                               <div class="row">
                                 <div class="col-lg-4">
-                                  <h6 class="dropdown-header">NEW ARRIVALS</h6>
+                                  <h6 class="dropdown-header">Terbaru</h6>
                                   <div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="#">Action</a>
                                   <a class="dropdown-item" href="#">Another action</a>
