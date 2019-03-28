@@ -56,7 +56,7 @@ class Homepage extends Component {
                             <div class="dropdown-menu drop" aria-labelledby="navbarDropdown">
                               <div class="row">
                                 <div class="col-lg-4">
-                                  <h6 class="dropdown-header">NEW ARRIVALS</h6>
+                                  <h6 class="dropdown-header">Terbaru</h6>
                                   <div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="#">Action</a>
                                   <a class="dropdown-item" href="#">Another action</a>
