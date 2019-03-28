@@ -7,6 +7,7 @@ import Caroselnews from './CaroselNews/CaroselNews'
 import FeaturedProduct from './FeaturedProduct/FeaturedProduct'
 import NewArrival from './NewArrival/NewArrival'
 import WellbornNews from './WellbornNews/WellbornNews'
+import Services from './Services/Services'
 
 
 
@@ -20,12 +21,12 @@ class Home extends Component {
     return (
       <div className="App">
     <Caroselnews/>
-    <BannerPromo/>
+    
     <BannerKategori/>
     <FeaturedProduct/>
     {/* <NewArrival/> */}
     <WellbornNews/>
-
+      <Services/>
         <div>
         
         </div>     

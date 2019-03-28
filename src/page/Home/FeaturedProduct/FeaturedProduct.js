@@ -19,92 +19,66 @@ class FeaturedProduct extends Component {
                 <div className="row">
                     <div className="col-12 pt-5">
                         <h2 className="text-center">
-                            <span>Featured Products</span>
+                            <span>WHY CHOOSE US ?</span>
                         </h2>
                         <hr/>
-                        <div className="regular slider slidebawah featured">
-                            <div className="card cardcatalog"  style={{width:'300px'}}>
-                            <img className='card-img-top' src='gambar/z1.jpg' alt={"/"}/>
-                                {/* <img class="card-img-top" src="gambar/z1.jpg" alt='/'/> */}
-                                <div className="card-body">
+                        <div class="row ">
+              <div class="col-4 p-0  text-center">
+                <span class="fa-stack fa-6x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-tablet fa-stack-1x fa-inverse"></i>
+                </span>
+                <h5 class="mt-2">Responsive</h5>
+                <p class="small">The display will look better and can be accessed on any platform</p>
 
-                                    <p className="card-text text-center">Voorhes printed T-shirt</p>
-                                    <p className="card-text text-center  harga">Rp.150.000</p>
-                                    <center>
-                                        <button className="btn btn-warning ">
-                                            <i className="fas fa-cart-arrow-down logo"></i>
-                                        </button>
-                                    </center>
-                                </div>
-                            </div>
+              </div>
 
-                            <div className="card cardcatalog" style={{width:'300px'}}>
-                                <img className="card-img-top" src="gambar/z2.jpg" alt={"/"}/>
-                                <div className="card-body">
-                                    <p className="card-text text-center">Voorhes printed T-shirt</p>
-                                    <p className="card-text text-center  harga">Rp.150.000</p>
-                                    <center>
-                                        <button className="btn btn-warning ">
-                                            <i className="fas fa-cart-arrow-down logo"></i>
-                                        </button>
-                                    </center>
-                                </div>
-                            </div>
+              <div class="col-4 p-0  text-center">
+                <span class="fa-stack fa-6x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-magic fa-stack-1x fa-inverse"></i>
+                </span>
+                <h5 class="mt-2">Elegant & Profesional</h5>
+                <p class="small">The display will look elegant and professional which will be a value added website to make it more reliable </p>
+              </div>
 
-                            <div className="card cardcatalog"  style={{width:'300px'}}>
-                                <img className="card-img-top" src="gambar/z3.jpg" alt={"/"}/>
-                                <div className="card-body">
-                                    <p className="card-text text-center">Voorhes printed T-shirt</p>
-                                    <p className="card-text text-center  harga">Rp.150.000</p>
-                                    <center>
-                                        <button className="btn btn-warning ">
-                                            <i className="fas fa-cart-arrow-down logo"></i>
-                                        </button>
-                                    </center>
-                                </div>
-                            </div>
+              <div class="col-4 p-0 text-center">
+                <span class="fa-stack fa-6x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-asl-interpreting fa-stack-1x fa-inverse"></i>
+                </span>
+                <h5 class="mt-2">Easy To Use</h5>
+                <p class="small">Easy to use and easy to rebuild</p>
+              </div>
 
-                            <div className="card cardcatalog"  style={{width:'300px'}}>
-                                <img className="card-img-top" src="gambar/z4.jpg" alt={"/"}/>
-                                <div className="card-body">
-                                    <p className="card-text text-center">Voorhes printed T-shirt</p>
-                                    <p className="card-text text-center  harga">Rp.150.000</p>
-                                    <center>
-                                        <button className="btn btn-warning ">
-                                            <i className="fas fa-cart-arrow-down logo"></i>
-                                        </button>
-                                    </center>
-                                </div>
-                            </div>
+              <div class="col-4 p-0 text-center">
+                <span class="fa-stack fa-6x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-group fa-stack-1x fa-inverse"></i>
+                </span>
+                <h5 class="mt-2">Experienced technicians</h5>
+                <p class="small">Maintenance and service handling is carried out by an experienced team</p>
+              </div>
 
-                            <div className="card cardcatalog"  style={{width:'300px'}}>
-                                <img className="card-img-top" src="gambar/z5.jpg" alt={"/"}/>
-                                <div className="card-body">
-                                    <p className="card-text text-center">Voorhes printed T-shirt</p>
-                                    <p className="card-text text-center  harga">Rp.150.000</p>
-                                    <center>
-                                        <button className="btn btn-warning ">
-                                            <i className="fas fa-cart-arrow-down logo"></i>
-                                        </button>
-                                    </center>
+              <div class="col-4 p-0 text-center">
+                <span class="fa-stack fa-6x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-key fa-stack-1x fa-inverse"></i>
+                </span>
+                <h5 class="mt-2">Full Access</h5>
+                <p class="small">We provide full access such as managing cpanel admin and other admin logins</p>
+              </div>
 
-                                </div>
-                            </div>
+              <div class="col-4 p-0 text-center">
+                <span class="fa-stack fa-6x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-dollar fa-stack-1x fa-inverse"></i>
+                </span>
+                <h5 class="mt-2">Low Cost</h5>
+                <p class="small">We provide various packages and relatively cheaper prices that you can customize according to your needs</p>
+              </div>
 
-                            <div className="card cardcatalog"  style={{width:'300px'}}>
-                                <img className="card-img-top" src="gambar/z6.jpg" alt={"/"}/>
-                                <div className="card-body">
-                                    <p className="card-text text-center">Voorhes printed T-shirt</p>
-                                    <p className="card-text text-center  harga">Rp.150.000</p>
-                                    <center>
-                                        <button className="btn btn-warning ">
-                                            <i className="fas fa-cart-arrow-down logo"></i>
-                                        </button>
-                                    </center>
-
-                                </div>
-                            </div>
-                        </div>
+            </div>
                         </div>
                     </div>
                     

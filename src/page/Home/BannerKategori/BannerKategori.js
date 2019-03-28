@@ -9,7 +9,10 @@ class BannerKategori extends Component {
           <div className="container-fluid fullprint">
             <div className="row">
               <div className="col-12 text-center">
-
+              <h2 className="text-center">
+                            <span>ABOUT US</span>
+                        </h2>
+                        <hr/>
                 <center>
 
                 </center>
@@ -23,10 +26,19 @@ class BannerKategori extends Component {
                 </a>
               </div>
 
-              <div className="col-6 p-0  text-center">
-                <a href="aaa">
-                  <img src="gambar/c2.jpg" alt={'/'} className="kolomfullprint" />
-                </a>
+              <div className="col-6 p-4  text-left">
+               
+                <p>JOKINGODING beginning of the establishment began with the formation of a community Techno-OS is a community 
+                  of users of Open Source Software. As time went on and the number of mandate that we have received to provide 
+                  business solutions by March 2010 some members of the community agreed to establish a business enterprise in 
+                  the IT field with the name of CV. Open Source Technology Laboratory or we are familiar with TLab name, 
+                  acronym of Open Source Technology Laboratory.</p>
+                  <br/>
+                  <p>Tlab beginning of the establishment began with the formation of a community Techno-OS is a community 
+                  of users of Open Source Software. As time went on and the number of mandate that we have received to provide 
+                  business solutions by March 2010 some members of the community agreed to establish a business enterprise in 
+                  the IT field with the name of CV. Open Source Technology Laboratory or we are familiar with TLab name, 
+                  acronym of Open Source Technology Laboratory.</p>
               </div>
             </div>
           </div>
