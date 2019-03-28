@@ -12,6 +12,7 @@ class Homepage extends Component {
 
             <header class="header col-lg-12 col-xm-12 fixed-top" id="site-header">
               <div class="header-newsletter">
+
                 <button class="header-newsletter-button ml-auto" onclick="">Follow
                         <i class="fas fa-times ml-auto logosilang"></i>
                 </button>
@@ -23,7 +24,9 @@ class Homepage extends Component {
                     <a href="https://www.wellborncompany.com/" class="shopping-guide">Sell</a>
                   </li>
                   <li class="user-menu">
+
                     <a href="https://www.wellborncompany.com/">Masuk / login</a>
+
 
                   </li>
 
