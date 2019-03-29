@@ -10,7 +10,7 @@ class BannerKategori extends Component {
           <div className="container-fluid fullprint">
             <div className="row">
               <div className="col-12 text-center">
-              <h2 className="text-center">
+              <h2 className="text-center"><br/>
                             <span>ABOUT US</span>
                         </h2>
                         <hr/>

@@ -24,7 +24,7 @@ class FeaturedProduct extends Component {
                         <hr/>
                         <div class="row ">
               <div class="col-4 p-0  text-center">
-                <span class="fa-stack fa-6x">
+                <span class="fa-stack fa-6x fb">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-tablet fa-stack-1x fa-inverse"></i>
                 </span>
@@ -34,7 +34,7 @@ class FeaturedProduct extends Component {
               </div>
 
               <div class="col-4 p-0  text-center">
-                <span class="fa-stack fa-6x">
+                <span class="fa-stack fa-6x fb">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-magic fa-stack-1x fa-inverse"></i>
                 </span>
@@ -43,7 +43,7 @@ class FeaturedProduct extends Component {
               </div>
 
               <div class="col-4 p-0 text-center">
-                <span class="fa-stack fa-6x">
+                <span class="fa-stack fa-6x fb">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-asl-interpreting fa-stack-1x fa-inverse"></i>
                 </span>
@@ -52,7 +52,7 @@ class FeaturedProduct extends Component {
               </div>
 
               <div class="col-4 p-0 text-center">
-                <span class="fa-stack fa-6x">
+                <span class="fa-stack fa-6x fb">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-group fa-stack-1x fa-inverse"></i>
                 </span>
@@ -61,7 +61,7 @@ class FeaturedProduct extends Component {
               </div>
 
               <div class="col-4 p-0 text-center">
-                <span class="fa-stack fa-6x">
+                <span class="fa-stack fa-6x fb">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-key fa-stack-1x fa-inverse"></i>
                 </span>
@@ -70,7 +70,7 @@ class FeaturedProduct extends Component {
               </div>
 
               <div class="col-4 p-0 text-center">
-                <span class="fa-stack fa-6x">
+                <span class="fa-stack fa-6x fb">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-money fa-stack-1x fa-inverse"></i>
                 </span>

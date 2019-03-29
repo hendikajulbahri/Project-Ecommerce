@@ -8,13 +8,14 @@ class Portfolio extends Component {
     return (
      <div>
 
-<div className="container">
+<div className="grid8">
+      <div className="container">
         <div className="row">
-          <div className="col-lg-12 text-center">
-            <h2 className="section-heading text-uppercase">Portfolio</h2>
+          <div className="col-lg-12 text-center"><br/>
+            <h2 className="section-heading text-uppercase">Our Products</h2> <hr></hr>
             <h3 className="section-subheading text-muted"> </h3>
           </div>
-        </div>
+        </div><br/>
         <div className="row">
           <div className="col-md-4 col-sm-6 portfolio-item">
             <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
@@ -162,6 +163,7 @@ class Portfolio extends Component {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
 

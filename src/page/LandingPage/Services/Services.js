@@ -17,7 +17,7 @@ class Services extends Component {
  <div className="grid6" id="grid6id">
  <div className="row">
           <div className="col-lg-12">
-          <h2 className="text-center">
+          <h2 className="text-center"><br/>
                             <span>OUR SERVICES</span>
                         </h2>
                         <hr/> <br/>
@@ -33,6 +33,9 @@ class Services extends Component {
                   </div>
                   <div className="timeline-body">
                     <p className="text-muted">Build a website with a responsive and elegant yet light appearance that is done by a team of certified professionals</p>
+                    <a href="#">
+                      <p>More Info..</p>
+                    </a>
                   </div>
                 </div>
               </li>
@@ -47,6 +50,9 @@ class Services extends Component {
                   </div>
                   <div className="timeline-body">
                     <p className="text-muted">Build desktop applications with attractive appearance and light work speeds that make the application more effective and efficient by a professional and certified team</p>
+                    <a href="#">
+                      <p>More Info..</p>
+                    </a>
                   </div>
                 </div>
               </li>
@@ -61,6 +67,9 @@ class Services extends Component {
                   </div>
                   <div className="timeline-body">
                     <p className="text-muted">Helps you install and repair local networks with systems that are available or not available. we provide the best solutions and services</p>
+                    <a href="#">
+                      <p>More Info..</p>
+                    </a>
                   </div>
                 </div>
               </li>
@@ -75,6 +84,9 @@ class Services extends Component {
                   </div>
                   <div className="timeline-body">
                     <p className="text-muted">procurement and installation of CCTV for individuals and companies at affordable prices</p>
+                    <a href="#">
+                      <p>More Info..</p>
+                    </a>
                   </div>
                 </div>
               </li>
