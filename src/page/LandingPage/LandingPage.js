@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 // import {Link, Route} from 'react-router-dom'
 
-import BannerKategori from './BannerKategori/BannerKategori'
-import BannerPromo from './BannerPromo/BannerPromo'
-import Caroselnews from './CaroselNews/CaroselNews'
-import FeaturedProduct from './FeaturedProduct/FeaturedProduct'
-import NewArrival from './NewArrival/NewArrival'
-import WellbornNews from './WellbornNews/WellbornNews'
+import About from './About/About'
+
+import CaroselLanding from './CaroselLanding/CaroselNews'
+import WhyChooseUs from './WhyChooseUs/WhyChooseUs'
+import Portfolio from './Portfolio/Portfolio'
+import News from './News/News'
+import Services from './Services/Services'
 
 
 
@@ -19,13 +20,14 @@ class Home extends Component {
   render() {
     return (
       <div className="App">
-    <Caroselnews/>
-    <BannerPromo/>
-    <BannerKategori/>
-    <FeaturedProduct/>
+    <CaroselLanding/>
+    
+    <About/>
+    <WhyChooseUs/>
     {/* <NewArrival/> */}
-    <WellbornNews/>
-
+    <Portfolio/>
+    <News/>
+      <Services/>
         <div>
         
         </div>     

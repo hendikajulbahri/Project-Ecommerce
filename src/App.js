@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 // import './App.css';
 
-import Navbar from './komponen/Navbar/Navbar';
-import Footer from './komponen/Footer/Footer';
+import NavbarLanding from './komponen/Navbar/Navbar_Landing';
+import FooterLanding from './komponen/Footer/FooterLanding';
 // import CaroselNews from './page/Home/CaroselNews/CaroselNews'
 // import BannerPromo from './page/Home/BannerPromo/BannerPromo'
 // import BannerKategori from './page/Home/BannerKategori/BannerKategori'
@@ -25,9 +25,9 @@ class App extends Component {
       <div className="App">
      
 
-      <Navbar/>
+      <NavbarLanding/>
   <Routes/>
-      <Footer/>
+      <FooterLanding/>
 
       
 
