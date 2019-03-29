@@ -8,7 +8,7 @@ section{
 }
 
 .grid7{
-    height: 90vh
+    height: 90vh;
 }
 
 
@@ -237,6 +237,7 @@ padding: 0;
 
 .grid5{
     margin-bottom: 0;
+    background-color: white;
 }
 
 /* .grid5 h2{
@@ -249,7 +250,13 @@ hr{
     border-top: 2px solid white;
     
 }
-
+.mt-choose{
+  color: black;
+}
+.small-choose{
+  color: black;
+  font-size: 14px;
+}
 .cardcatalog{
     border: 0px;
 }

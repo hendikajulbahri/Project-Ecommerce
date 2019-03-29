@@ -14,7 +14,7 @@ class Services extends Component {
     return (
       <div>
 
- <div className="grid5" id="grid5id">
+ <div className="grid6" id="grid6id">
  <div className="row">
           <div className="col-lg-12">
           <h2 className="text-center">

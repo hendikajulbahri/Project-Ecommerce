@@ -19,7 +19,7 @@ class FeaturedProduct extends Component {
                 <div className="row">
                     <div className="col-12 pt-5">
                         <h2 className="text-center">
-                            <span>WHY CHOOSE US ?</span>
+                            <span style={{color:"black"}}>WHY CHOOSE US ?</span>
                         </h2>
                         <hr/>
                         <div class="row ">
@@ -28,8 +28,8 @@ class FeaturedProduct extends Component {
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-tablet fa-stack-1x fa-inverse"></i>
                 </span>
-                <h5 class="mt-2">Responsive</h5>
-                <p class="small">The display will look better and can be accessed on any platform</p>
+                <h5 class="mt-choose">Responsive</h5>
+                <p class="small-choose">The display will look better and can be accessed on any platform</p>
 
               </div>
 
@@ -38,8 +38,8 @@ class FeaturedProduct extends Component {
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-magic fa-stack-1x fa-inverse"></i>
                 </span>
-                <h5 class="mt-2">Elegant & Profesional</h5>
-                <p class="small">The display will look elegant and professional which will be a value added website to make it more reliable </p>
+                <h5 class="mt-choose">Elegant & Profesional</h5>
+                <p class="small-choose col-md-offset-5">The display will look elegant and professional which will be a value added website to make it more reliable </p>
               </div>
 
               <div class="col-4 p-0 text-center">
@@ -47,8 +47,8 @@ class FeaturedProduct extends Component {
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-asl-interpreting fa-stack-1x fa-inverse"></i>
                 </span>
-                <h5 class="mt-2">Easy To Use</h5>
-                <p class="small">Easy to use and easy to rebuild</p>
+                <h5 class="mt-choose">Easy To Use</h5>
+                <p class="small-choose">Easy to use and easy to rebuild</p>
               </div>
 
               <div class="col-4 p-0 text-center">
@@ -56,8 +56,8 @@ class FeaturedProduct extends Component {
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-group fa-stack-1x fa-inverse"></i>
                 </span>
-                <h5 class="mt-2">Experienced technicians</h5>
-                <p class="small">Maintenance and service handling is carried out by an experienced team</p>
+                <h5 class="mt-choose">Experienced technicians</h5>
+                <p class="small-choose">Maintenance and service handling is carried out by an experienced team</p>
               </div>
 
               <div class="col-4 p-0 text-center">
@@ -65,8 +65,8 @@ class FeaturedProduct extends Component {
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-key fa-stack-1x fa-inverse"></i>
                 </span>
-                <h5 class="mt-2">Full Access</h5>
-                <p class="small">We provide full access such as managing cpanel admin and other admin logins</p>
+                <h5 class="mt-choose">Full Access</h5>
+                <p class="small-choose">We provide full access such as managing cpanel admin and other admin logins</p>
               </div>
 
               <div class="col-4 p-0 text-center">
@@ -74,8 +74,8 @@ class FeaturedProduct extends Component {
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-money fa-stack-1x fa-inverse"></i>
                 </span>
-                <h5 class="mt-2">Low Cost</h5>
-                <p class="small">We provide various packages and relatively cheaper prices that you can customize according to your needs</p>
+                <h5 class="mt-choose">Low Cost</h5>
+                <p class="small-choose">We provide various packages and relatively cheaper prices that you can customize according to your needs</p>
               </div>
 
             </div>
