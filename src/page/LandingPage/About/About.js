@@ -21,13 +21,13 @@ class BannerKategori extends Component {
             </div>
 
             <div className="row ">
-              <div className="col-6 p-0  text-center">
+              <div className="col-6 col-xs-12 p-0  text-center">
                 <a href="as">
                   <img height="370px"  src="gambar/landing-page/slide-1.jpg" alt={'/'} className="kolomfullprint" />
                 </a>
               </div>
 
-              <div className="col-6 p-4  text-left">
+              <div className="col-6 col-xs-12 p-4  text-left">
                
                 <p>JOKINGODING beginning of the establishment began with the formation of a community Techno-OS is a community 
                   of users of Open Source Software. As time went on and the number of mandate that we have received to provide 

@@ -841,3 +841,13 @@ card > a{
 .text-muted{
   color: white!important;
 }
+
+@media (min-width: 160px) and (max-width: 800px){
+  .col-xs-12{ flex: 100%;
+    max-width: 100%;
+  
+  }   
+  .col-sm-12{ flex: 100%;
+    max-width: 100%;
+  }  
+}
