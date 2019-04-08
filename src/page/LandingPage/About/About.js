@@ -2,7 +2,10 @@ import React, { Component } from 'react'
 
 import '../../../css/web.css';
 class BannerKategori extends Component {
+    
   render() {
+     
+
     return (
      <div>
        <br/><br/>
@@ -11,7 +14,7 @@ class BannerKategori extends Component {
             <div className="row">
               <div className="col-12 text-center">
               <h2 className="text-center"><br/>
-                            <span>ABOUT US</span>
+                            <span>ABOUT</span><span className="span-orange"> US</span>
                         </h2>
                         <hr/>
                 <center>
@@ -29,17 +32,9 @@ class BannerKategori extends Component {
 
               <div className="col-6 col-xs-12 p-4  text-left">
                
-                <p>JOKINGODING beginning of the establishment began with the formation of a community Techno-OS is a community 
-                  of users of Open Source Software. As time went on and the number of mandate that we have received to provide 
-                  business solutions by March 2010 some members of the community agreed to establish a business enterprise in 
-                  the IT field with the name of CV. Open Source Technology Laboratory or we are familiar with TLab name, 
-                  acronym of Open Source Technology Laboratory.</p>
+                <p>JOKINGODING's initial establishment began with the establishment of Jockey Services making applications for student friends. Over time in April 2019 we agreed to be even more serious in offering software manufacturing services and merchandise sales.</p>
                   <br/>
-                  <p>Tlab beginning of the establishment began with the formation of a community Techno-OS is a community 
-                  of users of Open Source Software. As time went on and the number of mandate that we have received to provide 
-                  business solutions by March 2010 some members of the community agreed to establish a business enterprise in 
-                  the IT field with the name of CV. Open Source Technology Laboratory or we are familiar with TLab name, 
-                  acronym of Open Source Technology Laboratory.</p>
+                  <p>JOKINGODING has now provided many solutions for several of our clients, increasing effectiveness, efficiency and solving common problems that occur with our clients. Our team also began to seriously develop the merchandise sales business with the theme of the programmer</p>
               </div>
             </div>
           </div>

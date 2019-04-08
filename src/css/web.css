@@ -51,8 +51,16 @@ body{
 
 .header{
     width: 100%;
+   
     background-color:#181818;
     border-bottom: 1px solid #181818;
+}
+
+.text-primary {
+    color: #ff9d00!important;
+}
+.span-orange {
+    color: #ff9d00;
 }
 
 
@@ -189,8 +197,8 @@ li{
 
  .logobawah img{
      padding-bottom: 0px;
-     height: 35px;
-     width: 170px; 
+     height: 79px;
+     width: 195; 
  }
 
 
@@ -243,6 +251,8 @@ padding: 0;
 .kolomfullprint{
     width: 100%;
     padding-bottom: 0px;
+    padding-left: 20px;
+    padding-top: 25px;
 }
 
 /*  */
@@ -512,7 +522,7 @@ card > a{
     color: white;
     border: 7px solid #e9ecef;
     border-radius: 100%;
-    background-color: #3698fe;
+    background-color: #ff9d00;
   }
   
   .timeline > li .timeline-image h4 {

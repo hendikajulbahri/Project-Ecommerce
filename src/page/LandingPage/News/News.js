@@ -12,11 +12,11 @@ class WellbornNews extends Component {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 pt-5">
-                        <h2 className="text-center">
-                            <span>NEWs & BLOGS</span>
+                         <h2 className="text-center"><br/>
+                            <span>NEWS & </span><span className="span-orange"> BLOGS</span>
                         </h2>
                         <hr/>
-
+                       
                         <div className="regular slider newariv ">
                             <div className="card katalognews"  style={{width:"500px"}}>
 

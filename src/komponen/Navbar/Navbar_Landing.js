@@ -21,7 +21,7 @@ class Navbar extends Component {
                     <nav className="navbar navbar-expand-lg navbar-dark m-0 my-1 ">
                       <div className="container-fluid logobawah">
                         <a className="navbar-brand" href="/" >
-                          <img src="gambar/logo3.PNG" alt="a" />
+                          <img src="gambar/logojokingoding2_transparent.png" alt="a" />
                         </a>
 
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
