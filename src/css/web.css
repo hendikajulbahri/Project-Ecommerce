@@ -24,7 +24,7 @@ section{
 .grid6{
   background-image: url("/gambar/bg-1.jpg");
   margin-bottom: 0;
-  padding: 25px;
+  padding-bottom: 25px;
   
 }
 
@@ -309,23 +309,25 @@ hr{
   
 }
 
+
 .foot1row{
     background-color: #333333;
     padding-top: 25px;
-    height: 25vh;
+    padding-bottom: 10px;
     margin-left: 0px;
     margin-right: 0px;
-    
+    font-family: 'Roboto Slab','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 
 .isifoot1 > p{
     margin-top: 12px;
+    display: inline-block;
+    line-height: 0.3;
+    font-size:15px;
 }
 
-.isifoot1:hover{
-    transform: scale(1.1)
-}
+
 
 
 .logo:hover{
@@ -537,7 +539,7 @@ card > a{
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #e9ecef;
+    border: 2px solid #e9ecef;
     border-radius: 100%;
     background-color: #ff9d00;
   }
@@ -878,3 +880,32 @@ card > a{
     max-width: 100%;
   }  
 }
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #ff9d00;
+}
+.mr-auto1, .mx-auto {
+  margin-left: auto!important;
+}
+
+
+

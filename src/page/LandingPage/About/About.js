@@ -9,7 +9,7 @@ class BannerKategori extends Component {
     return (
      <div>
        <br/><br/>
-        <div className="grid4" id="grid4id">
+        <div className="grid4" id="about">
           <div className="container-fluid fullprint">
             <div className="row">
               <div className="col-12 text-center">

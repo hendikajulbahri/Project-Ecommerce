@@ -28,8 +28,8 @@ class Portfolio extends Component {
                 </div>
               </div>
               <img className="img-fluid" src="gambar/portfolio/eis.PNG" alt=""/>
-            </a>
-            <div className="portfolio-caption">
+            </a><br/><br/>
+            <div className="portfolio-caption text-center">
               <h4>Eighteen Shoes Care</h4>
               <p className="text-muted">E-commerce for Industri Shoes Care</p>
             </div>
@@ -42,8 +42,8 @@ class Portfolio extends Component {
                 </div>
               </div>
               <img className="img-fluid" src="gambar/portfolio/cendana.png" alt=""/>
-            </a>
-            <div className="portfolio-caption">
+            </a><br/><br/>
+            <div className="portfolio-caption text-center">
               <h4>Cendana Food</h4>
               <p className="text-muted">Advertising website for Cendana Catering</p>
             </div>
@@ -56,8 +56,8 @@ class Portfolio extends Component {
                 </div>
               </div>
               <img className="img-fluid" src="gambar/portfolio/ipdc.PNG" alt="" />
-            </a>
-            <div className="portfolio-caption">
+            </a><br/><br/>
+            <div className="portfolio-caption text-center">
               <h4>IPDC Training Centre</h4>
               <p className="text-muted">Questionnaire Online</p>
             </div>
