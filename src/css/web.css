@@ -24,6 +24,7 @@ section{
 .grid6{
   background-image: url("/gambar/bg-1.jpg");
   margin-bottom: 0;
+  padding: 25px;
   
 }
 
@@ -234,7 +235,7 @@ li{
 }
 
 .gambar{
-    height: 650px;
+    height: auto;
 }
 
 
@@ -292,6 +293,8 @@ hr{
 .small-choose{
   color: black;
   font-size: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .cardcatalog{
     border: 0px;

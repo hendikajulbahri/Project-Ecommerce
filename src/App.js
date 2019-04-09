@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="floatwa">
-<a href="https://api.whatsapp.com/send?phone=628987843361&amp;text=Halo%20admin,%20Ngebuat%20Web%20" target="_blank"><div className="tombolwa"><i className="fa fa-whatsapp fa-4x"></i>Chat Admin</div></a></div>
+<a href="https://api.whatsapp.com/send?phone=628987843361&amp;text=Halo%20admin,%20Joki%20Ngoding%20" target="_blank"><div className="tombolwa"><i className="fa fa-whatsapp fa-4x"></i>Chat Admin</div></a></div>
 
       <NavbarLanding/>
   <Routes/>
