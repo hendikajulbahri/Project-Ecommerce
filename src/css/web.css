@@ -1,73 +1,35 @@
 section{
-    height: 120vh;
+  margin-bottom: 0;
     /* height: 400px; */ 
 }
-@media (max-width: 800px){
-  section{
-    height: 95vh;
-  }
-}
+
 @media (max-width: 570px){
-  section{
-    height: 70vh;
-  }
+  
   .carousel-control-next-icon, .carousel-control-prev-icon {
     display: none;
   }
 }
-@media (max-width: 450px){
-  section{
-    height: 60vh;
-  }
-  .carousel-control-next-icon, .carousel-control-prev-icon {
-    display: none;
-  }
-}
+
 .grid3{
-    height: 90vh;
+  margin-bottom: 0;
 }
 
 .grid7{
-    height: 90vh;
+  margin-bottom: 0;
     
 }
 .grid8{
-  height: 180vh;
+  margin-bottom: 0;
 }
 .grid6{
   background-image: url("/gambar/bg-1.jpg");
-  height: 270vh;
+  margin-bottom: 0;
   
 }
-@media (max-width: 767px){
-  .grid6{
-    height: 180vh;
-  }
-}
 
-@media (max-width: 600px){
-  .grid6{
-    height: 200vh;
-  }
-}
-@media (max-width: 450px){
-  .grid6{
-    height: 240vh;
-  }
-}
 
 .grid4{
   background-image: url("/gambar/bg-1.jpg");
-}
-@media (min-width: 575px){
-  .grid8{
-    height: 100vh;
-  }
-}
-@media (max-width: 460px){
-  .grid8{
-    height: 160vh;
-  }
 }
 
 
