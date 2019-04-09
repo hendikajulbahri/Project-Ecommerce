@@ -1,7 +1,27 @@
 section{
-    height: 100vh;
-    /* height: 400px; */
-    
+    height: 120vh;
+    /* height: 400px; */ 
+}
+@media (max-width: 800px){
+  section{
+    height: 95vh;
+  }
+}
+@media (max-width: 570px){
+  section{
+    height: 70vh;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+  }
+}
+@media (max-width: 450px){
+  section{
+    height: 60vh;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+  }
 }
 .grid3{
     height: 90vh;
@@ -12,17 +32,43 @@ section{
     
 }
 .grid8{
-  height: 90vh;
+  height: 180vh;
 }
 .grid6{
   background-image: url("/gambar/bg-1.jpg");
+  height: 270vh;
   
+}
+@media (max-width: 767px){
+  .grid6{
+    height: 180vh;
+  }
+}
+
+@media (max-width: 600px){
+  .grid6{
+    height: 200vh;
+  }
+}
+@media (max-width: 450px){
+  .grid6{
+    height: 240vh;
+  }
 }
 
 .grid4{
   background-image: url("/gambar/bg-1.jpg");
 }
-
+@media (min-width: 575px){
+  .grid8{
+    height: 100vh;
+  }
+}
+@media (max-width: 460px){
+  .grid8{
+    height: 160vh;
+  }
+}
 
 
 /* .navbar{
@@ -205,11 +251,15 @@ li{
  .carousel-inner img {
      
     width: 100%;
+    padding-top: 100px;
+    position: inherit;
+    height: 100%;
     /* height: 100%; */
     
     /* height: 80%; */
     /* height: 50%; */
 }
+
 
 .carousel-inner{
     width: 100%;
@@ -250,8 +300,10 @@ padding: 0;
 
 .kolomfullprint{
     width: 100%;
-    padding-bottom: 0px;
+    height: auto;
+    padding-bottom: 20px;
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 25px;
 }
 

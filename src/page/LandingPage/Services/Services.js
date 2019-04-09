@@ -15,7 +15,7 @@ class Services extends Component {
       <div>
 
  <div className="grid6" id="grid6id">
- <div className="row">
+ <div className="container-fluid row">
           <div className="col-lg-12">
           <h2 className="text-center"><br/>
                             <span>OUR SERVICES</span>
