@@ -1,33 +1,37 @@
 section{
-    height: 100vh;
-    /* height: 400px; */
-    
+  margin-bottom: 0;
+    /* height: 400px; */ 
 }
+
+@media (max-width: 570px){
+  
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+  }
+}
+
 .grid3{
-    height: 90vh;
+  margin-bottom: 0;
 }
 
 .grid7{
-    height: 90vh;
+  margin-bottom: 0;
     
 }
 .grid8{
-  height: 90vh;
+  margin-bottom: 0;
 }
 .grid6{
   background-image: url("/gambar/bg-1.jpg");
+  margin-bottom: 0;
+  padding-bottom: 25px;
   
 }
+
 
 .grid4{
   background-image: url("/gambar/bg-1.jpg");
 }
-
-
-
-/* .navbar{
-   
-} */
 
 
 body{
@@ -205,11 +209,15 @@ li{
  .carousel-inner img {
      
     width: 100%;
+    padding-top: 100px;
+    position: inherit;
+    height: 100%;
     /* height: 100%; */
     
     /* height: 80%; */
     /* height: 50%; */
 }
+
 
 .carousel-inner{
     width: 100%;
@@ -222,7 +230,7 @@ li{
 }
 
 .gambar{
-    height: 650px;
+    height: auto;
 }
 
 
@@ -250,8 +258,15 @@ padding: 0;
 
 .kolomfullprint{
     width: 100%;
+
     padding-bottom: 0px;
     padding-left: 20px;
+
+    height: auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
     padding-top: 25px;
 }
 
@@ -278,6 +293,8 @@ hr{
 .small-choose{
   color: black;
   font-size: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .cardcatalog{
     border: 0px;
@@ -292,23 +309,25 @@ hr{
   
 }
 
+
 .foot1row{
     background-color: #333333;
     padding-top: 25px;
-    height: 25vh;
+    padding-bottom: 10px;
     margin-left: 0px;
     margin-right: 0px;
-    
+    font-family: 'Roboto Slab','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 
 .isifoot1 > p{
     margin-top: 12px;
+    display: inline-block;
+    line-height: 0.3;
+    font-size:15px;
 }
 
-.isifoot1:hover{
-    transform: scale(1.1)
-}
+
 
 
 .logo:hover{
@@ -520,7 +539,7 @@ card > a{
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #e9ecef;
+    border: 2px solid #e9ecef;
     border-radius: 100%;
     background-color: #ff9d00;
   }
@@ -861,3 +880,32 @@ card > a{
     max-width: 100%;
   }  
 }
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #ff9d00;
+}
+.mr-auto1, .mx-auto {
+  margin-left: auto!important;
+}
+
+
+

@@ -23,10 +23,10 @@ class CaroselNews extends Component {
                   {/* <!-- The slideshow --> */}
                   <div className="carousel-inner gambar ">
                     <div className="carousel-item active">
-                      <img height="550px" width="1000px" src="gambar/landing-page/slide-2.jpg" alt="Los Angeles" />
+                      <img height="auto" src="gambar/landing-page/slide-2.jpg" alt="Los Angeles" />
                     </div>
                     <div className="carousel-item">
-                      <img height="550px" width="1000px" src="gambar/landing-page/slide-5.jpg" alt="Chicago" />
+                      <img src="gambar/landing-page/slide-5.jpg" alt="Chicago" />
                     </div>
 
                   </div>

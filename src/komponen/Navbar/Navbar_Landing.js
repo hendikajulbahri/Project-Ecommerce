@@ -30,10 +30,10 @@ class Navbar extends Component {
                         </button>
 
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                          <ul className="navbar-nav mr-auto ">
+                          <ul className="navbar-nav mr-auto1 ">
                             
                             <li className="nav-item  nav-item ">
-                              <a className="nav-link " href="asda" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <a className="nav-link js-scroll-trigger" href="#about" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 About
                               </a>
                             </li>
@@ -45,7 +45,7 @@ class Navbar extends Component {
                             </li>
 
                             <li className="nav-item  nav-item ">
-                              <a className="nav-link " href="asda" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <a className="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Product
                               </a>
                             </li>
