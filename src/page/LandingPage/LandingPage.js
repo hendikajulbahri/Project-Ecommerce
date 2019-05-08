@@ -26,7 +26,7 @@ class Home extends Component {
     <WhyChooseUs/>
     {/* <NewArrival/> */}
     <Portfolio/>
-    <News/>
+    
       <Services/>
         <div>
         

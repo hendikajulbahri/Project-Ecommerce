@@ -12,7 +12,10 @@ class Portfolio extends Component {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center"><br/>
-            <h2 className="section-heading text-uppercase">Our Products</h2> <hr></hr>
+             <h2 className="text-center"><br/>
+                            <span>OUR </span><span className="span-orange"> PRODUCTS</span>
+                        </h2>
+                        <hr/>
             <h3 className="section-subheading text-muted"> </h3>
           </div>
         </div><br/>
@@ -38,7 +41,7 @@ class Portfolio extends Component {
                  
                 </div>
               </div>
-              <img className="img-fluid" src="gambar/portfolio/cendana.PNG" alt=""/>
+              <img className="img-fluid" src="gambar/portfolio/cendana.png" alt=""/>
             </a>
             <div className="portfolio-caption">
               <h4>Cendana Food</h4>
@@ -52,7 +55,7 @@ class Portfolio extends Component {
                  
                 </div>
               </div>
-              <img className="img-fluid" src="gambar/portfolio/ipdc.png" alt="" />
+              <img className="img-fluid" src="gambar/portfolio/ipdc.PNG" alt="" />
             </a>
             <div className="portfolio-caption">
               <h4>IPDC Training Centre</h4>
@@ -114,7 +117,7 @@ class Portfolio extends Component {
                  
                   <h2 className="text-uppercase">Kuesioner Online</h2>
                   <p className="item-intro text-muted"></p>
-                  <img className="img-fluid d-block mx-auto" src="gambar/portfolio/ipdc.png" alt=""/>
+                  <img className="img-fluid d-block mx-auto" src="gambar/portfolio/ipdc.PNG" alt=""/>
                   <p>proyek yang dirancang untuk tujuan formulir evaluasi untuk pusat pelatihan dirancang sedemikian rupa sehingga mereka dapat diakses di mana saja setelah proses pelatihan selesai. peserta pelatihan dapat mengakses dan memberikan nilai sebagai bahan evaluasi untuk tempat pelatihan dan tim pelatih</p>
                   <ul className="list-inline">
                     <li>Tanggal: Oktober 2017</li>
@@ -148,7 +151,7 @@ class Portfolio extends Component {
                  
                   <h2 className="text-uppercase">Cendana Catering</h2>
                  
-                  <img className="img-fluid d-block mx-auto" src="gambar/portfolio/cendana.PNG" alt=""/>
+                  <img className="img-fluid d-block mx-auto" src="gambar/portfolio/cendana.png" alt=""/>
                   <p>Sebuah portal website yang bertujuan untuk meningkatkan pemasaran di era digital dengan artikel yang dikemas seunik mungkin dan pengelolaan artikel dibagian admin yang dibuat semudah mungkin agar dapat digunakan.</p>
                   <ul className="list-inline">
                     <li>Date: Oktober 2018</li>
